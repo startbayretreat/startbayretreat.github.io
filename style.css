@@ -20,17 +20,19 @@ body, html {
 
 #home-title {
 	font-family: 'Corinthia', cursive;
-	font-size: max(15vw, 120px);
+	font-size: max(15vw, 13vh);
 	color: white;
 	opacity: 0.9;
+	line-height: normal;
+	padding: 3vh;
 }
 
 .site-icon {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 50px;
-    margin: 20px;
+    width: 6vh;
+    margin: 2vh;
 }
 
 
