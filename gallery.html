@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+	<head>
+	  <title>Start Bay Retreat</title>
+	  <meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
+	  <style></style>
+	  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  <script type="text/javascript" charset="utf-8"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+		<link rel="stylesheet" href="style.css" type="text/css" />
+		<link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css" >
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700&family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+  </head>
+
+	<body>
+
+		<div class="jumbotron jumbotron-fluid">
+  			<div class="container">
+    			<h1>Gallery</h1>
+  			</div>
+		</div>
+
+
+
+		<div class="gallery row no-gutters">
+				<div class="gallery-img col col-lg-2 col-md-3 col-sm-4 padding-0">
+					<img class= "img-fluid" src="Images/Gallery/Bedroom.png" alt=""></img>
+				</div>
+
+
+				
+
+
+		</div>
+
+
+	</body>
+</html>
+
+
+<script type="text/javascript">
+	var folder = "Images/Gallery/";
+
+
+	$.ajax({
+    url : folder,
+    success: function (data) {
+        $(data).find("a").attr("href", function (i, val) {
+            if( val.match(/\.(jpeg|png|gif)$/) ) { 
+            	console.log(val)
+
+            	$(".gallery").append("<div class='gallery-img col col-lg-2 col-md-3 col-sm-4\
+            		padding-0'><img class='img-fluid' src='"+ folder + val + "' alt=''></img>\
+            		</div>");
+	            } 
+	        });
+	    }
+	});
+
+
+
+
+</script>
