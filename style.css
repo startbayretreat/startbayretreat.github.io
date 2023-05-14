@@ -1,8 +1,10 @@
-
-
 body, html {
   height: 100%;
   margin: 0;
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden; 
 }
 
 
@@ -34,6 +36,65 @@ body, html {
     width: 6vh;
     margin: 2vh;
 }
+
+.jumbotron {
+	background-color: #8CB7C0;
+	color:  white;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.jumbotron h1 { 
+	font-weight: 400;
+	font-family: 'Alegreya Sans', sans-serif;
+}
+
+.site-icon-nav {
+	margin-top: 35px;
+	margin-left: 20px;
+	position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 6vh;
+}
+
+
+.gallery {
+	width: 100%;
+
+
+}
+
+
+
+.gallery .gallery-img {
+	padding: 1vh;
+	min-width: 0;
+
+}
+
+
+.img-fluid {
+	max-width:  100%;
+}
+
+
+.padding-0 {
+    padding-right:0;
+    padding-left:0;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
