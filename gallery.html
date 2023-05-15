@@ -137,6 +137,21 @@
 
 <script type="text/javascript">
 $(document).ready(function() {
+	  $(window).on('load', function() {
+      		$('#content').masonry({
+		           itemSelector : '.product',
+		           columnWidth : 310,
+		           isAnimated: true,
+		           animationOptions: {
+		                duration: 700,
+		                easing: 'linear',
+		                queue: false
+		           }
+     		 });
+  	});
+
+
+
 
 	var imageList = $('.img-fluid').map(function() {
 		return this.getAttribute("src");
