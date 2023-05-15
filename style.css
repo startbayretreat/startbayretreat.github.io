@@ -61,21 +61,18 @@ body, html {
 
 
 .gallery {
-	width: 100%;
-
+	width: 90%;
+	margin-left: 5%;
 
 }
 
-
-
-.gallery .gallery-img {
+.gallery .gallery-img-container {
 	padding: 1vh;
 	min-width: 0;
 
 }
 
-
-.img-fluid {
+.gallery-img {
 	max-width:  100%;
 }
 
@@ -85,8 +82,62 @@ body, html {
     padding-left:0;
 }
 
+.photo-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.9);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 4;
+    display: none;
+    text-align: center;
+}
 
+.close-photo-overlay {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+}
 
+.next-photo-overlay {
+    font-size: 30px;
+    position: absolute;
+    right: 20px;
+    top: 45%;
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.prev-photo-overlay {
+    font-size: 30px;
+    position: absolute;
+    left: 20px;
+    top: 45%;
+    color: #fff;
+    z-index: 2;
+    cursor: pointer;
+}
+
+.enlarged {
+  	max-width: 85%;
+  	max-height: 85%;
+  	vertical-align: middle;
+}
+
+.helper {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
 
 
 
