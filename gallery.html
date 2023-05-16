@@ -6,24 +6,49 @@
 	  <style></style>
 	  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 	  <script type="text/javascript" charset="utf-8"></script>
-	  <script src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha384-GNFwBvfVxBkLMJpYMOABq3c+d3KnQxudP/mGPkzpZSTYykLBNsZEnG2D9G/X/+7D" crossorigin="anonymous" async></script>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+	  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+		
+
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
 		<link rel="stylesheet" href="style.css" type="text/css" />
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" >
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@100;300;400;500;700&family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
-		<link rel="icon" href="Images/Homepage/icon_favicon.svg" type="image/svg+xml">
+		<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
+		<link rel="icon" href="src/icons/icon_favicon.svg" type="image/svg+xml">
+
+
 
   </head>
 
 	<body>
 
 		<div class="jumbotron jumbotron-fluid">
-  			<div class="container">
-  				<img class="site-icon-nav" src="Images/Homepage/icon.svg" alt="Start Bay Retreat">
-    			<h1>Gallery</h1>
-  			</div>
+			<img class="site-icon-nav" src="src/icons/icon_nav.svg" alt="Start Bay Retreat">
+
+
+				<a class="air-bnb-icon" href="https://www.airbnb.co.uk/rooms/43718351?guests=1&adults=1&s=67&unique_share_id=1c9ea597-8b83-43bb-bd0f-d0fc8d94a1de"><i class="fa-brands fa-airbnb"></i></a>
+
+
+
+
+
+
+			<ul class="nav justify-content-center">
+				<li class="nav-item">
+					<a class="nav-link disabled" href="#">Gallery</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link underline-on-hover" href="#">Our Local Guide</a>
+				</li>
+				<li class="nav-item">
+			 		<a class="nav-link underline-on-hover" href="#">FAQs</a>
+			  	</li>
+			</ul>
+
+			<h1>Gallery</h1>
+
 		</div>
 
 		<div class="photo-overlay">
@@ -34,134 +59,191 @@
 			<div class="next-photo-overlay"><i class="fa fa-chevron-right" aria-hidden="true"></i></div>
 		</div>
 
-
-
-<div class="container">
-		<div class="gallery no-gutters" >
-			<div class="row" data-masonry='{"percentPosition": true }'>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Bedroom.png" alt=""></img>
+		<div class="container">
+			<div class="text-center no-gutters">
+				<div class="filter-btns" data-toggle="buttons" role="group" aria-label="...">
+					<div class="row gallery-filters">
+						<div class="col-6 col-md-4 col-lg-2 padding-0">
+	  						<button type="button" id="img-house" class="btn btn-default filter-btn"><i class="fa-solid fa-house"></i> House</button>
+	  					</div>
+	  					<div class="col-6 col-md-4 col-lg-2 padding-0">
+	  						<button type="button" id="img-garden" class="btn btn-default filter-btn"><i class="fa-solid fa-leaf"></i> Garden</button>
+	  					</div>
+	  					<div class="col-6 col-md-4 col-lg-2 padding-0">
+	  						<button type="button" id="img-living" class="btn btn-default filter-btn"><i class="fa-solid fa-couch"></i></i> Living</button>
+	  					</div>
+	  					<div class="col-6 col-md-4 col-lg-2 padding-0">
+	  						<button type="button" id="img-kitchen" class="btn btn-default filter-btn"><i class="fa-solid fa-utensils"></i> Kitchen</button>
+	  					</div>
+	  					<div class="col-6 col-md-4 col-lg-2 padding-0">
+	  						<button type="button" id="img-bedroom" class="btn btn-default filter-btn"><i class="fa-solid fa-bed"></i></i> Bedrooms</button>
+	  					</div>
+	  					<div class="col-6 col-md-4 col-lg-2 padding-0">
+	  						<button type="button" id="img-local-area" class="btn btn-default filter-btn"><i class="fa-solid fa-binoculars"></i> Local Area</button>
+						</div>
+					</div>
 				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Garden.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Kitchen.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Living Room.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Start Bay Retreat.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Living Room 2.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Start Bay Retreat 2.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Living Room 3.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Living Room 4.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Living Room 5.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Kitchen 2.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Kitchen 3.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Kitchen 4.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Kitchen 5.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Bedroom 2.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Bedroom 3.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Bedroom 4.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Bathroom.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Bathroom 2.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 1.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 2.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 3.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 4.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 5.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 6.png" alt=""></img>
-				</div>
-				<div class="gallery-img-container col-xs-6 col-sm-6 col-md-3 col-lg-2 padding-0">
-					<img class= "gallery-img img-fluid" src="Images/Gallery/Area 7.png" alt=""></img>
-				</div>
-
-
-
-
-
-
-
-
-		</div>
 			</div>
-
-				
+			<div class="gallery no-gutters" >
+				<div class="row">
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-house">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/House1_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-house">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/House2_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-garden">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Garden1_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-garden">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Garden2_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living1_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living2_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living3_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living4_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living5_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living6_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-living">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Living7_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen1_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen2_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen3_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen4_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen5_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen6_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen7_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen8_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-kitchen">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Kitchen9_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom1_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom2_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom3_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom4_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom5_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom6_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-bedroom">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Bedroom7_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area1_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area2_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area3_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area4_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area5_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area6_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area7_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area8_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area9_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area10_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area11_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area12_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area13_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area14_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area15_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area16_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area17_thumbnail.jpg" alt=""></img>
+					</div>
+					<div class="gallery-img-container col-6 col-sm-4 col-md-3 col-lg-2 padding-0 selected img-local-area">
+						<img class= "gallery-img img-fluid" src="src/images/gallery/Area18_thumbnail.jpg" alt=""></img>
+					</div>
+				</div>
+			</div>
 		</div>
-
-
 	</body>
 </html>
 
 <script type="text/javascript">
 $(document).ready(function() {
-	  $(window).on('load', function() {
-      		$('#content').masonry({
-		           itemSelector : '.product',
-		           columnWidth : 310,
-		           isAnimated: true,
-		           animationOptions: {
-		                duration: 700,
-		                easing: 'linear',
-		                queue: false
-		           }
-     		 });
-  	});
 
 
 
 
-	var imageList = $('.img-fluid').map(function() {
-		return this.getAttribute("src");
-	}).get();
+	var $grid = $('.gallery').isotope({
+		  itemSelector: '.gallery-img-container',
+		  layoutMode: 'fitRows'
+		});
+
 
 	$('.gallery-img-container').click(function(event) {
 		event.preventDefault();
 		var imageUrl = $(this).children().attr('src');
 		$('.photo-overlay').show()
-		$('.enlarged').attr('src', imageUrl);
+		$('.enlarged').attr('src', imageUrl.replace('_thumbnail',''));
 	});
 
 	$('.close-photo-overlay').click(function() {
@@ -169,20 +251,41 @@ $(document).ready(function() {
 	});
 
 	function changePhoto(n) {
-		let index = imageList.indexOf($('.enlarged').attr('src'));
+		let imageList = $('.selected > .img-fluid').map(function() {
+			return this.getAttribute("src");
+		}).get();
+
+		let index = imageList.indexOf($('.enlarged').attr('src').replace('.jpg','_thumbnail.jpg'));
 		let nextIndex = index + n;
 
 		if (nextIndex == imageList.length) {
-			$('.enlarged').attr('src', imageList[0]);
+			$('.enlarged').attr('src', imageList[0].replace('_thumbnail',''));
 		}
 		else if (nextIndex >= 0) {
-			$('.enlarged').attr('src', imageList[nextIndex]);
+			$('.enlarged').attr('src', imageList[nextIndex].replace('_thumbnail',''));
 		}
 		else {
-			$('.enlarged').attr('src', imageList[imageList.length - 1]);
+			$('.enlarged').attr('src', imageList[imageList.length - 1].replace('_thumbnail',''));
 		}
 	}
 
+
+	$('.filter-btn').click(function() {
+		if (this.classList.contains('active')) {
+			$('.filter-btn').removeClass('active')
+			$('.gallery-img-container').addClass('selected')
+			$grid.isotope({ filter: '*' });
+		}
+		else {
+			$('.filter-btn').removeClass('active')
+			this.classList.add('active')
+			let className = '.' + this.getAttribute("id")
+		    $grid.isotope({ filter: className });
+		    $('.gallery-img-container').removeClass('selected')
+		    $(className).addClass('selected')
+
+		}
+	})
 
 
 	$('.next-photo-overlay').click(function() {
@@ -194,8 +297,8 @@ $(document).ready(function() {
 		changePhoto(-1)
 	});
 
-	document.addEventListener('keydown', function(event) {
 
+	document.addEventListener('keydown', function(event) {
 		if ($('.photo-overlay').is(":visible")) {
 			switch (event.key) {
 				    case "ArrowRight":
