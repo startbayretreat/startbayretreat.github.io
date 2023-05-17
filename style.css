@@ -102,6 +102,7 @@ body, html {
 	justify-content: center; /* Align horizontal */
 	align-items: center; /* Align vertical */
 	text-align: center;	
+	height: 80vh;
 }
 
 
@@ -232,7 +233,7 @@ body, html {
 }
 
 
-.fa-solid {
+.gallery-filters > .fa-solid {
 	margin-right: 5px;
 }
 
@@ -243,6 +244,76 @@ body, html {
 	padding: 1vh;
 	margin-top: 3vh;
 }
+
+
+
+.guide-row {
+	padding: 8vh;
+}
+
+.guide-img-container {
+	
+}
+
+.guide-info-container {
+	
+
+}
+
+.guide-info-container h1 {
+	font-family: 'Corinthia', cursive;
+	font-size: 7vh;
+	margin-bottom: 0px;
+}
+
+.guide-info-container h2 {
+	font-size: 2vh;
+}
+
+.guide-info-container i {
+	padding-right: 1vh;
+}
+
+.guide-info-container p {
+	font-size: 1.7vh;
+}
+
+.green-background  {
+	background-color: #E9EFEE;
+}
+
+
+.r-align {
+	text-align: right;
+}
+
+.l-align {
+	text-align: left;
+}
+
+@media (max-width: 768px) {
+  	.r-align {
+      text-align: center;
+  	}
+  	.l-align {
+      text-align: center;
+  	}
+}
+
+
+
+
+
+.guide-img {
+	height: 25vh;
+}
+
+
+.guide-container .row {
+}
+
+
+
 
 
 
