@@ -248,7 +248,7 @@ body, html {
 
 
 .guide-row {
-	padding: 8vh;
+	padding: 50px;
 }
 
 .guide-img-container {
@@ -301,6 +301,17 @@ body, html {
 }
 
 
+@media only screen and (max-device-width: 480px) {
+	.r-align {
+      	text-align: center;
+	}
+  	.l-align {
+      text-align: center;
+  	}
+  	.col-md-6 {
+  		width: 100%;
+  	}
+}
 
 
 
@@ -312,6 +323,11 @@ body, html {
 .guide-container .row {
 }
 
+
+.reverse {
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
 
 
 
