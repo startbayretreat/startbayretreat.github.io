@@ -7,19 +7,20 @@ body, html {
   overflow-x: hidden; 
 }
 
-
-
-
 .jumbotron {
 	background-color: #8CB7C0;
-	color:  white;
+	color: white;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
 	height: 25vh;
 	font-size: 10pt;
 	position: relative;
+}
 
+.jumbotron-homepage {
+	background-color: rgba(0,0,0,0);
+	height: 10vh;
 }
 
 .jumbotron h1 { 
@@ -87,21 +88,22 @@ body, html {
 
 
 
-
-
-
 #home-bg {
 	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0)), url("src/images/homepage/home.jpg");
 	height: 100%; 
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
+	width: 100%;
+}
+
+.home-title-container {
 	display: flex;
 	justify-content: center; /* Align horizontal */
 	align-items: center; /* Align vertical */
 	text-align: center;	
-	width: 100%;
 }
+
 
 #home-title {
 	font-family: 'Corinthia', cursive;
