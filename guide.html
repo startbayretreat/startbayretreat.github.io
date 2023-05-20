@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
 	<head>
-	 	<title>Gallery</title>
+	 	<title>Guide</title>
 	  	<meta http-equiv="Content-Type" content="text/html; charset=windows-1252"/>
 	  	<style></style>
 	  	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
 	  	<script type="text/javascript" charset="utf-8"></script>
 	  	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
 		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous"/>
@@ -15,6 +16,7 @@
 		<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="icon" href="src/icons/icon_favicon.svg" type="image/svg+xml">
   	</head>
+
 
 	<body>
 		<!-- HEADER / NAV BAR -->
@@ -35,98 +37,643 @@
 			<h1>Local Guide</h1>
 		</div>
 
-		<!-- PHOTO POPOUT -->
+
+		<!-- PAGE MENU -->
+		<div class="guide-menu">
+			<a href="#local-area-header">
+			 	<div class="menu-item in-view" id="menu-local-area" data-toggle="tooltip" title="Local Area" data-placement="right">
+			 		<i class="fa-solid fa-map-location-dot my-auto"></i>
+			 	</div>
+			 </a>
+			 <a href="#beach-header">
+			 	<div class="menu-item" id="menu-beach" data-toggle="tooltip" title="Beaches" data-placement="right">
+			 		<i class="fa-solid fa-umbrella-beach"></i>
+			 	</div>
+		 	</a>
+			 <a href="#walks-header">
+			 	<div class="menu-item" id="menu-walks" data-toggle="tooltip" title="Walks" data-placement="right">
+			 		<i class="fa-solid fa-signs-post"></i>
+			 	</div>
+		 	</a>
+			 <a href="#places-to-eat-header">
+			 	<div class="menu-item" id="menu-places-to-eat" data-toggle="tooltip" title="Eating Out" data-placement="right">
+			 		<i class="fa-solid fa-utensils"></i>
+			 	</div>
+		 	</a>
+			 <a href="#gardens-header">
+			 	<div class="menu-item" id="menu-gardens" data-toggle="tooltip" title="Gardens/National Trust" data-placement="right">
+			 		<i class="fa-solid fa-tree"></i>
+			 	</div>
+		 	</a>
+			 <a href="#activities-with-kids-header">
+			 	<div class="menu-item" id="menu-activities-with-kids" data-toggle="tooltip" title="Activities with Kids" data-placement="right">
+			 		<i class="fa-solid fa-children"></i>
+			 	</div>
+		 	</a>
+			 <a href="#shopping-header">
+			 	<div class="menu-item" id="menu-shopping" data-toggle="tooltip" title="Local Shopping" data-placement="right">
+			 		<i class="fa-solid fa-cart-shopping"></i>
+			 	</div>
+		 	</a>
+			 <a href="#rainy-day-header">
+			 	<div class="menu-item" id="menu-rainy-day" data-toggle="tooltip" title="Rainy Day Activities" data-placement="right">
+			 		<i class="fa-solid fa-cloud-rain"></i>
+			 	</div>
+		 	</a>
+		</div>
+
 		
+		<div class="guide-content" id="guide-content">
 
-	
+
+			<!--------------------------------------------- WALKS --------------------------------------------->
 
 
-		<div class="guide-container">
-			
-			<!-- ROW -->
-			<div class="row reverse guide-row">
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
-					<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-img">
+	 		<div class="guide-cards-container content-section" id='local-area'>
+
+		 		<div class="guide-header top" id="local-area-header">
+		 			Local Area
+		 		</div>
+
+
+		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
+
+
+		 	</div>
+
+
+
+
+
+
+		 	<!--------------------------------------------- BEACHES --------------------------------------------->
+
+			<div class="guide-container content-section" id='beach'>
+				
+				<div class="guide-header" id='beach-header'>
+					Beaches
+				</div>
+					
+				<!-- ROW -->
+				<div class="row reverse guide-row no-padding-top">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Blackpool Sands</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>1.1 mile</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+					</div>
 				</div>
 
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
-					<h1>Blackpool Sands</h1>
-					<h2><i class="fa-solid fa-location-dot"></i>1.1 mile</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
+						<h1>Torcross</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>6 miles</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+					</div>
 
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<img src="src/images/guide/torcross_thumbnail.jpg" class="guide-img">
+					</div>
+				</div>
+
+				<!-- ROW -->
+				<div class="row reverse guide-row">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Mill Bay</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>14.6 miles</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+
+					</div>
+				</div>
+
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
+						<h1>South Milton</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>15.6 miles</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-img">
+					</div>
+				</div>
+
+				<!-- ROW -->
+				<div class="row reverse guide-row">
+					<div class="col-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Hope Cove</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>18.8 miles</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+					</div>
+				</div>
+
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
+						<h1>Salcombe</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>17.1 miles</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-img">
+					</div>
+				</div>
+
+				<!-- ROW -->
+				<div class="row reverse guide-row">
+					<div class="col-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Bigbury</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>20.7 miles</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+
+					</div>
+				</div>
+
+
+
+	 		</div>
+
+
+	 		<!--------------------------------------------- WALKS --------------------------------------------->
+
+
+	 		<div class="guide-cards-container content-section" id='walks'>
+
+		 		<div class="guide-header" id='walks-header'>
+		 			Walks
+		 		</div>
+
+
+		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
+
+
+		 	</div>
+
+
+
+
+
+		 	<!--------------------------------------------- PLACES TO EAT --------------------------------------------->
+
+		 	
+
+		 	<div class="guide-cards-container content-section" id='places-to-eat'>
+
+		 		<div class="guide-header" id='places-to-eat-header'>
+		 			Places to Eat
+		 		</div>
+				<div class="row equal justify-content-center">
+					
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>The Green Dragon</h1>
+										<h3>Village Pub</h3>
+										<h2><i class="fa-solid fa-location-dot"></i>Stoke Fleming | 0.3 miles</h2>
+										
+										<a class="guide-card-icon" href="https://thegreendragon-pub.business.site/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/greendragon2018"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1467217-d2031343-Reviews-The_Green_Dragon-Stoke_Fleming_Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Radius 7</h1>
+										<h3>Bistro</h3>
+										<h2><i class="fa-solid fa-location-dot"></i>Stoke Fleming | 0.4 miles</h2>
+										
+										<a class="guide-card-icon" href="https://radius7.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/radius7food"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1467217-d7384349-Reviews-Radius_7-Stoke_Fleming_Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/stoke_lodge_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Stoke Lodge Hotel</h1>
+										<h3>Garden Restaurant</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Stoke Fleming | 0.4 miles</h2>
+										
+										<a class="guide-card-icon" href="http://www.stokelodge.co.uk/rf.cfm"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/stokelodgehotel"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Hotel_Review-g186253-d577464-Reviews-Stoke_Lodge_Hotel-Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Bushells</h1>
+										<h3>Riverside Restaurant</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.7 miles </h2>
+										
+										<a class="guide-card-icon" href="https://bushellsdartmouth.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/bushellsriverside"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d7282773-Reviews-Bushell_s_Riverside-Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/torcross_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Rockfish</h1>
+										<h3>Seafood Restaurant</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.7 miles</h2>
+										
+										<a class="guide-card-icon" href="https://therockfish.co.uk/pages/dartmouth-seafood-restaurant"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/RockFishDartmouth"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d1867932-Reviews-Rockfish_Dartmouth-Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Rockfish Takeaway</h1>
+										<h3>Fish & Chips</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.8 miles</h2>
+										
+										<a class="guide-card-icon" href="https://therockfish.co.uk/pages/dartmouth-seafood-takeaway"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/RockFishDartmouth"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d4106633-Reviews-Rockfish_Takeaway-Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Spice Merchant</h1>
+										<h3>Indian Cuisine</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.8 miles</h2>
+										
+										<a class="guide-card-icon" href="https://www.spicemerchantdartmouth.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/spicemerchantdartmouth"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d23515942-Reviews-Spice_Merchant-Dartmouth_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/the_old_inn_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>The Old Inn</h1>
+										<h3>Country Pub</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Halwell | 8.1 miles </h2>
+										
+										<a class="guide-card-icon" href="http://www.theoldinnhalwell.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/theoldinnhalwell"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g2273452-d3215689-Reviews-The_Old_Inn_Restaurant_Bar-Halwell_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/britannia_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Britannia</h1>
+										<h3>Beach Restaurant & Cafe</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Beesands | 9.1 miles</h2>
+										
+										<a class="guide-card-icon" href="https://www.britanniaatthebeach.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/britanniabeesands"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1929953-d2081278-Reviews-Britannia_The_Beach-Beesands_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>The Old Bakery</h1>
+										<h3>Mediterranean & Persian Cuisine</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Kingsbridge | 10.2 miles</h2>
+										
+										<a class="guide-card-icon" href="https://www.theoldbakeryrestaurant.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/theoldbakerykingsbridgedevon"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g551682-d1532883-Reviews-The_Old_Bakery_Restaurant-Kingsbridge_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>Maha-Bharat</h1>
+										<h3>Bengali & Indian Cuisine</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Kingsbridge | 10.3 miles</h2>
+										
+										<a class="guide-card-icon" href="https://www.mahabharatonline.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/Mahabharat93"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g551682-d4040698-Reviews-Maha_Bharat_Indian_Restaurant-Kingsbridge_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
+
+					<!-- CARD -->
+					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
+						<div class="guide-card-contents green-background">
+							<table>
+								<td>
+									<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-card-img my-auto">
+								</td>
+								<td>
+									<div class="guide-card-info my-auto">
+										<h1>The Cott Inn</h1>
+										<h3>Gastropub</h3> 
+										<h2><i class="fa-solid fa-location-dot"></i>Dartington | 12.7 miles</h2>
+										
+										<a class="guide-card-icon" href="https://cottinn.co.uk/"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/thecottinn"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g735763-d1884983-Reviews-The_Cott_Inn_Restaurant-Dartington_Totnes_Devon_England.html">
+											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
+										</a>
+									</div>
+								</td>
+								
+							</table>
+						</div>
+					</div>
 				</div>
 			</div>
 
-			<!-- ROW -->
-			<div class="row guide-row green-background">
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
-					<h1>Torcross</h1>
-					<h2><i class="fa-solid fa-location-dot"></i>6 miles</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-				</div>
+			<!--------------------------------------------- GARDENS --------------------------------------------->
 
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
-					<img src="src/images/guide/torcross_thumbnail.jpg" class="guide-img">
-				</div>
-			</div>
+			<div class="guide-cards-container content-section" id='gardens'>
 
-			<!-- ROW -->
-			<div class="row reverse guide-row">
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
-					<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-img">
-				</div>
+		 		<div class="guide-header" id='gardens-header'>
+		 			National Trust / Gardens
+		 		</div>
 
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
-					<h1>Mill Bay</h1>
-					<h2><i class="fa-solid fa-location-dot"></i>14.6 miles</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
 
-				</div>
-			</div>
+		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
 
-			<!-- ROW -->
-			<div class="row guide-row green-background">
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
-					<h1>Salcombe</h1>
-					<h2><i class="fa-solid fa-location-dot"></i>16.3 miles</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
-				</div>
 
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
-					<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-img">
-				</div>
-			</div>
+		 	</div>
 
-			<!-- ROW -->
-			<div class="row reverse guide-row">
-				<div class="col-12 col-md-6 guide-box guide-img-container r-align my-auto">
-					<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-img">
-				</div>
-
-				<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
-					<h1>Hope Cove</h1>
-					<h2><i class="fa-solid fa-location-dot"></i>18.8 miles</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-
-				</div>
-			</div>
+		 	<!--------------------------------------------- ACTIVITIES WITH KIDS --------------------------------------------->
 
 
 
+			<div class="guide-cards-container content-section" id='activities-with-kids'>
+
+		 		<div class="guide-header" id='activities-with-kids-header'>
+		 			Activities with Kids
+		 		</div>
+
+
+		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
+
+
+		 	</div>
+
+
+		 	<!--------------------------------------------- SHOPPING --------------------------------------------->
+
+			<div class="guide-cards-container content-section" id='shopping'>
+
+		 		<div class="guide-header" id='shopping-header'>
+		 			Local Shopping
+		 		</div>
+
+
+		 		Rainy Day <br>
+
+
+		 	</div>
+
+
+
+		 	<!--------------------------------------------- RAINY DAY ACTIVITIES --------------------------------------------->
+
+
+			<div class="guide-cards-container content-section" id='rainy-day'>
+
+		 		<div class="guide-header" id='rainy-day-header'>
+		 			Rainy Day Activities
+		 		</div>
+
+
+		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
+
+
+		 	</div>
 
 
 		</div>
-
-
-		
 	</body>
 </html>
 
+<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
 <script type="text/javascript">
-// $(window).load(function() {
-	
+$(document).ready(function(){
+	$('[data-toggle="tooltip"]').tooltip();
 
-	
-// });            
+
+
+
+	$(".guide-content").on( 'scroll', function(){
+		var offsetTop = document.getElementById('guide-content').offsetTop;
+		var offsetHeight = document.getElementById('guide-content').offsetHeight;
+
+		$('.content-section').each(function(i, obj) {
+			let bounding = obj.getBoundingClientRect();
+			let top = bounding.top - offsetTop;
+			let bottom = bounding.bottom - offsetTop;
+
+			mostVisible = mostVisibleInViewport(top, bottom, offsetTop, offsetHeight)
+
+			if (mostVisible) {
+				let elementId = "#menu-" + obj.id;
+        		$('.menu-item').removeClass('in-view')
+        		$(elementId).addClass('in-view')
+			}
+		});
+	});
+
+
+
+	function mostVisibleInViewport (top, bottom, offsetTop, offsetHeight) {
+		if (top >= 0 && bottom <= offsetHeight) {
+			return true
+		}
+		else if (top <=0 && bottom >= offsetHeight) {
+			return true
+		}
+		else if ((top >= 0 && top <= offsetHeight) && (((offsetHeight - top) / offsetHeight) >= 0.5))  {
+			return true
+		}
+		else if ((bottom >= 0 && bottom <= offsetHeight) && (((bottom) / offsetHeight) >= 0.5)) {
+			return true
+		}
+		else {
+			return false
+		}
+	}
+
+
+
+
+
+
+
+
+
+
+
+});
+
 </script>
-

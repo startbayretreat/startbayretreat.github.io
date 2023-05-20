@@ -7,6 +7,10 @@ body, html {
   overflow-x: hidden; 
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 .jumbotron {
 	background-color: #8CB7C0;
 	color: white;
@@ -249,6 +253,15 @@ body, html {
 
 .guide-row {
 	padding: 50px;
+	--bs-gutter-x: 0em;
+}
+
+.no-padding-top {
+	padding-top: 0px;
+}
+
+.guide-box {
+	padding: 1vh;
 }
 
 .guide-img-container {
@@ -267,7 +280,7 @@ body, html {
 }
 
 .guide-info-container h2 {
-	font-size: 2vh;
+	font-size: 1.8vh;
 }
 
 .guide-info-container i {
@@ -314,6 +327,11 @@ body, html {
 }
 
 
+.content-section {
+	scroll-behavior: smooth;
+	padding-bottom: 10vh;
+}
+
 
 .guide-img {
 	height: 25vh;
@@ -330,12 +348,160 @@ body, html {
 }
 
 
+.guide-card {
+	padding: 1vh;
+	margin-top: 3vh;
+}
+
+.guide-card-contents {
+	margin: 1.5vh;
+	padding: 1vh;
+	height: 100%;
+}
+
+
+.ta-icon {
+	height: 3.3vh;
+	margin-bottom: 1.2vh;
+
+}
+
+.guide-card-icon {
+	padding: 0.5vh;
+	color: #284E54;
+}
+
+.guide-card-icon:hover {
+	color: #8CB7C0;
+}
+
+.guide-card-icon .fa-laptop {
+	font-size: 3vh;
+}
+
+.guide-card-icon .fa-facebook-square {
+	font-size: 3vh;
+}
+
+.guide-card-contents h1 {
+	font-family: 'Corinthia', cursive;
+	font-size: 5vh;
+	margin: 0px;
+}
+
+.guide-card-contents h2 {
+	font-size: 1.5vh;
+	margin-bottom: 2vh;
+}
+
+.guide-card-contents h3 {
+	font-size: 1.8vh;
+}
+
+.guide-card-contents .fa-location-dot {
+	margin-right: 5px;
+}
+
+.guide-card-info {
+	display: inline;
+}
+
+
+.guide-card-img {
+	display: inline;
+	width: 15vh;
+	height: 15vh;
+	margin: 2vh;
+	border-radius: 100px;
+	object-fit: cover;
+}
+
+
+@media only screen and (max-device-width: 480px) {
+.guide-cards-container .col-sm-6 {
+    width: 100%;
+  }
+
+}
+
+.guide-cards-container {
+	margin-left: 5vw;
+	margin-right: 5vw;
+	overflow: hidden;
+}
+
+
+.guide-cards-container table {
+	height: 100%;
+}
 
 
 
 
 
 
+ .guide-menu {
+ 	width: 100px;
+ 	position:  fixed;
+ 	bottom:  0;
+ 	left: 0;
+ 	text-align: center;
+ 	font-size: 2vh;
+ 	padding-top: 200px;
+ 	padding-bottom: 200px;
+ 	border-right: #8cb7c0 1px dashed;
+
+ }
+
+.menu-item {
+ 	height: 12.5%;
+ 	width: 100%;
+ 	transition: 0.3s;
+ 	display: inline-block;
+ 	line-height: 50px;
+ 	cursor: pointer;
+ 	color: #8CB7C0;
+ }
+
+.menu-item:hover {
+ 	font-size: 3.5vh;
+ 	color: #284E54;
+ }
+
+ .in-view {
+ 	 	font-size: 3.5vh;
+ 	color: #284E54;
+ }
+
+.menu-item fa {
+	vertical-align: middle;
+}
+
+.tooltip-inner {
+    background-color: #284E54;
+}
+
+
+
+
+ .guide-content {
+ 	margin-left: 100px;
+ 	overflow: scroll;
+ 	height: calc(100vh - 200px);
+ }
+
+
+ .guide-header {
+ 	font-family: 'Corinthia', cursive;
+ 	font-size:  10vh;
+ 	color: #284E54;
+ 	text-align: center;
+ 	border-top: #8CB7C0 1px dashed;
+ }
+
+  .guide-header.top {
+  	border-top: none;
+  }
 
 
 
