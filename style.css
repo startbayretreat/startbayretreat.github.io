@@ -443,13 +443,12 @@ html {
  .guide-menu {
  	width: 100px;
  	position:  fixed;
- 	bottom:  0;
+ 	top: 25vh;
  	left: 0;
  	text-align: center;
- 	font-size: 2vh;
- 	padding-top: 200px;
- 	padding-bottom: 200px;
+ 	font-size: 2.5vh;
  	border-right: #8cb7c0 1px dashed;
+ 	height: 75vh;
 
  }
 
@@ -469,7 +468,7 @@ html {
  }
 
  .in-view {
- 	 	font-size: 3.5vh;
+ 	font-size: 3.5vh;
  	color: #284E54;
  }
 
@@ -487,7 +486,7 @@ html {
  .guide-content {
  	margin-left: 100px;
  	overflow: scroll;
- 	height: calc(100vh - 200px);
+ 	height: calc(100vh - 25vh);
  }
 
 
