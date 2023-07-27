@@ -510,6 +510,11 @@ html {
 	background-size: 5vh;
 }
 
+.guide-card-contents.key {
+	background-image: url(src/icons/key.svg);
+	background-size: 5vh;
+}
+
 
 .guide-card-contents.photo {
 	background-size: cover;
@@ -519,17 +524,27 @@ html {
 
 
 .guide-card-contents.zoo.photo {
-	background-image: url(src/images/guide/zoo.jpg);
+	background-image: url(src/images/guide/activities/zoo.jpg);
 	background-position: top;
 }
 
 .guide-card-contents.garden.photo {
-	background-image: url(src/images/guide/garden.jpg);
+	background-image: url(src/images/guide/activities/garden.jpg);
+}
+
+
+.guide-card-contents.crab.photo {
+	background-image: url(src/images/guide/activities/crab.jpg);
 }
 
 .guide-card-contents.bodyboard.photo {
-	background-image: url(src/images/guide/bodyboard.jpg);
+	background-image: url(src/images/guide/activities/bodyboard.jpg);
 }
+
+.guide-card-contents.escape_room.photo {
+	background-image: url(src/images/guide/activities/escape_room.jpg);
+}
+
 
 
 
