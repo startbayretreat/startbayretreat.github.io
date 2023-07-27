@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="512"
+   height="512"
+   viewBox="0 0 135.46666 135.46667"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.2.2 (b0a84865, 2022-12-01)"
+   sodipodi:docname="bowling_ball.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="1.0482732"
+     inkscape:cx="267.58292"
+     inkscape:cy="217.02358"
+     inkscape:window-width="1185"
+     inkscape:window-height="847"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       id="path946"
+       style="fill:#ffffff;fill-rule:evenodd;stroke-width:0.281653;opacity:0.6"
+       d="M 67.704141,26.087301 A 41.645866,41.645866 0 0 0 26.08756,67.752458 41.645866,41.645866 0 0 0 67.742899,109.37937 41.645866,41.645866 0 0 0 109.37911,67.733338 H 67.73308 l 41.64603,-0.03876 A 41.645866,41.645866 0 0 0 67.704141,26.087301 Z m -7.70909,13.882357 a 5.805182,5.805182 0 0 1 5.809465,5.799646 l -5.805331,0.0052 h 5.805331 a 5.805182,5.805182 0 0 1 -5.80378,5.80533 5.805182,5.805182 0 0 1 -5.806881,-5.80223 5.805182,5.805182 0 0 1 5.801196,-5.807914 z M 45.01302,51.327621 a 5.805182,5.805182 0 0 1 5.809464,5.799646 l -5.80533,0.0052 h 5.80533 a 5.805182,5.805182 0 0 1 -5.80378,5.80533 5.805182,5.805182 0 0 1 -5.806364,-5.80223 5.805182,5.805182 0 0 1 5.80068,-5.807914 z m 14.982031,5.959843 a 5.805182,5.805182 0 0 1 5.809465,5.799646 l -5.805331,0.0057 h 5.805331 a 5.805182,5.805182 0 0 1 -5.80378,5.805331 5.805182,5.805182 0 0 1 -5.806881,-5.802747 5.805182,5.805182 0 0 1 5.801196,-5.807914 z" />
+  </g>
+</svg>

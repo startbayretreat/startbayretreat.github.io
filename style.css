@@ -252,7 +252,9 @@ html {
 
 
 .guide-row {
-	padding: 50px;
+	padding: 80px;
+	padding-left: 100px;
+	padding-right: 100px;
 	--bs-gutter-x: 0em;
 }
 
@@ -289,7 +291,29 @@ html {
 
 .guide-info-container p {
 	font-size: 1.7vh;
+	margin-bottom: 10px;
 }
+
+.beach-facilities {
+	margin-right: 5px;
+}
+
+.beach-facilities.yes {
+	color: #284E54;
+}
+
+.beach-facilities.sometimes {
+	color: #8CB7C0;
+}
+
+.beach-facilities.no {
+	color: #E9EFEE;
+}
+
+.direction-link {
+	color: #284E54;
+}
+
 
 .green-background  {
 	background-color: #E9EFEE;
@@ -311,6 +335,10 @@ html {
   	.l-align {
       text-align: center;
   	}
+
+  	.guide-img-caption {
+  		margin: 0 auto;
+  	}
 }
 
 
@@ -324,6 +352,9 @@ html {
   	.col-md-6 {
   		width: 100%;
   	}
+  	.guide-img-caption {
+  		margin: 0 auto;
+  	}
 }
 
 
@@ -334,9 +365,36 @@ html {
 
 
 .guide-img {
-	height: 25vh;
+	height: 28vh;
+	width: 28vh;
+	object-fit: cover;
 }
 
+.guide-img-caption {
+  position: absolute;
+  bottom: 0px;
+  font-size: 8px;
+  width: 28vh;
+  background-color: rgba(255,255,255,0.6);
+  color: black;
+}
+
+.guide-img-caption a {
+	color: black;
+
+}
+
+.r-align .guide-img-caption {
+	right: 0px;
+}
+
+.l-align .guide-img-caption {
+	left: 0px;
+}
+
+.guide-img-container {
+  position: relative;
+}
 
 .guide-container .row {
 }
@@ -358,6 +416,124 @@ html {
 	padding: 1vh;
 	height: 100%;
 }
+
+
+.guide-card-contents.woodlands {
+	background-image: url(src/icons/ferris_wheel.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.sheep {
+	background-image: url(src/icons/sheep.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.crab {
+	background-image: url(src/icons/crab.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.hippo {
+	background-image: url(src/icons/hippo.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.sandcastle {
+	background-image: url(src/icons/sandcastle.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.paddleboard {
+	background-image: url(src/icons/paddle_board.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.bodyboard {
+	background-image: url(src/icons/body_board.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.cinema {
+	background-image: url(src/icons/cinema.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.bowling {
+	background-image: url(src/icons/bowling_ball.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.art {
+	background-image: url(src/icons/paint_brush.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.golf {
+	background-image: url(src/icons/golf.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.plant {
+	background-image: url(src/icons/plant.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.fish {
+	background-image: url(src/icons/fish.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.house {
+	background-image: url(src/icons/house.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.cavern {
+	background-image: url(src/icons/cavern.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.shopping {
+	background-image: url(src/icons/shopping.svg);
+	background-size: 5vh;
+}
+
+.guide-card-contents.shopping {
+	background-image: url(src/icons/shopping.svg);
+	background-size: 5vh;
+}
+
+
+.guide-card-contents.photo {
+	background-size: cover;
+	background-position: center;
+	filter: grayscale(1);
+}
+
+
+.guide-card-contents.zoo.photo {
+	background-image: url(src/images/guide/zoo.jpg);
+	background-position: top;
+}
+
+.guide-card-contents.garden.photo {
+	background-image: url(src/images/guide/garden.jpg);
+}
+
+.guide-card-contents.bodyboard.photo {
+	background-image: url(src/images/guide/bodyboard.jpg);
+}
+
+
+
+
 
 
 .ta-icon {
@@ -453,18 +629,39 @@ html {
  }
 
 .menu-item {
- 	height: 12.5%;
+ 	height: 14.2%;
  	width: 100%;
  	transition: 0.3s;
  	display: inline-block;
  	line-height: 50px;
  	cursor: pointer;
  	color: #8CB7C0;
+ 	display: flex; /* CSS3 */
+    align-items: center; /* Vertical align */
+    justify-content: center;
  }
+
+
+.guide-menu > a {
+	text-decoration: none;
+}
 
 .menu-item:hover {
  	font-size: 3.5vh;
  	color: #284E54;
+ }
+
+
+ .menu-item > img {
+ 	 height: 2.8vh;
+ 	 transition: 0.3s;
+
+ }
+
+ .menu-item > img:hover {
+ 	height: 3.8vh;
+ 	color: #284E54;
+ 	transition: 0.3s;
  }
 
  .in-view {
@@ -478,6 +675,7 @@ html {
 
 .tooltip-inner {
     background-color: #284E54;
+    margin-bottom: 3vh;
 }
 
 
@@ -502,6 +700,76 @@ html {
   	border-top: none;
   }
 
+.guide-icon {
+	height: 2vh;
+}
+
+.activity-content {
+	text-align: center;
+	margin-top: 3vh;
+}
+
+.activity-content h2 {
+	font-family: 'Corinthia', cursive;
+	font-size:  5vh;
+}
+
+.activity-content p {
+	font-size: 1.7vh;
+
+	}
+
+.activity-icon {
+	height: 4vh;	
+	margin: 1.5vh;
+}
+
+.activity-icon {
+	height: 4vh;	
+	margin: 1.5vh;
+}
+
+.activity-icon.fa-solid {
+	font-size: 4vh;
+}
 
 
 
+.activity-card .arrow_box {
+	display: inline-block;
+	position: relative;
+	background: #ffffff;
+	width:auto;
+	height:50px;
+	top:0;
+	left:-20px;
+	padding: 0 10px 0 10px;
+	line-height: 60px;
+	color: #284E54;
+	font-size: 5vh;
+	width: 100%;
+	font-family: 'Corinthia', cursive;
+	text-align: left;
+
+}
+.activity-card .arrow_box:after {
+	left: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(66, 170, 225, 0);
+	border-left-color: #ffffff;
+	border-width: 25px;
+	top: 50%;
+	margin-top: -25px;
+}
+
+
+.activity-card {
+	position: relative;
+	float:left;
+	clear: left;
+}

@@ -15,6 +15,7 @@
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="icon" href="src/icons/icon_favicon.svg" type="image/svg+xml">
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   	</head>
 
 
@@ -40,174 +41,306 @@
 
 		<!-- PAGE MENU -->
 		<div class="guide-menu">
-			<a href="#local-area-header">
-			 	<div class="menu-item in-view" id="menu-local-area" data-toggle="tooltip" title="Local Area" data-placement="right">
-			 		<i class="fa-solid fa-map-location-dot my-auto"></i>
-			 	</div>
-			 </a>
-			 <a href="#beach-header">
-			 	<div class="menu-item" id="menu-beach" data-toggle="tooltip" title="Beaches" data-placement="right">
+			 <a href="#beaches">
+			 	<div class="menu-item in-view" id="menu-beaches" data-toggle="tooltip" title="Beaches" data-placement="right">
 			 		<i class="fa-solid fa-umbrella-beach"></i>
 			 	</div>
 		 	</a>
-			 <a href="#walks-header">
+			 <a href="#walks">
 			 	<div class="menu-item" id="menu-walks" data-toggle="tooltip" title="Walks" data-placement="right">
 			 		<i class="fa-solid fa-signs-post"></i>
 			 	</div>
 		 	</a>
-			 <a href="#places-to-eat-header">
-			 	<div class="menu-item" id="menu-places-to-eat" data-toggle="tooltip" title="Eating Out" data-placement="right">
+		 	<a href="#days-out">
+			 	<div class="menu-item" id="menu-days-out" data-toggle="tooltip" title="Days Out" data-placement="right">
+			 		<i class="fa-solid fa-car-side"></i>
+			 	</div>
+		 	</a>
+			 <a href="#places-to-eat">
+			 	<div class="menu-item" id="menu-places-to-eat" data-toggle="tooltip" title="Places to Eat" data-placement="right">
 			 		<i class="fa-solid fa-utensils"></i>
 			 	</div>
 		 	</a>
-			 <a href="#gardens-header">
+			 <a href="#gardens">
 			 	<div class="menu-item" id="menu-gardens" data-toggle="tooltip" title="Gardens/National Trust" data-placement="right">
-			 		<i class="fa-solid fa-tree"></i>
+			 		<i class="fa-solid fa-seedling"></i>
 			 	</div>
 		 	</a>
-			 <a href="#activities-with-kids-header">
+			 <a href="#activities-with-kids">
 			 	<div class="menu-item" id="menu-activities-with-kids" data-toggle="tooltip" title="Activities with Kids" data-placement="right">
-			 		<i class="fa-solid fa-children"></i>
+			 		<i class="bi-ticket-perforated-fill"></i>
 			 	</div>
 		 	</a>
-			 <a href="#shopping-header">
-			 	<div class="menu-item" id="menu-shopping" data-toggle="tooltip" title="Local Shopping" data-placement="right">
-			 		<i class="fa-solid fa-cart-shopping"></i>
-			 	</div>
-		 	</a>
-			 <a href="#rainy-day-header">
+			 <a href="#rainy-day">
 			 	<div class="menu-item" id="menu-rainy-day" data-toggle="tooltip" title="Rainy Day Activities" data-placement="right">
 			 		<i class="fa-solid fa-cloud-rain"></i>
+
 			 	</div>
 		 	</a>
 		</div>
 
-		
 		<div class="guide-content" id="guide-content">
-
-
-			<!--------------------------------------------- WALKS --------------------------------------------->
-
-
-	 		<div class="guide-cards-container content-section" id='local-area'>
-
-		 		<div class="guide-header top" id="local-area-header">
-		 			Local Area
-		 		</div>
-
-
-		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
-
-
-		 	</div>
-
-
-
 
 
 
 		 	<!--------------------------------------------- BEACHES --------------------------------------------->
 
-			<div class="guide-container content-section" id='beach'>
+			<div class="guide-container content-section" id='beaches'>
 				
-				<div class="guide-header" id='beach-header'>
+				<div class="guide-header top" id='beaches'>
 					Beaches
 				</div>
 					
 				<!-- ROW -->
 				<div class="row reverse guide-row no-padding-top">
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
-						<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-img">
+						<img src="src/images/guide/beaches/blackpool_sands_thumbnail.jpg" class="guide-img">
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
 						<h1>Blackpool Sands</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>1.1 mile</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<a class="direction-link" href="https://goo.gl/maps/aBz8n5ZTL4E9ZZPG7" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>1.1 miles</h2>
+						</a>
+						<p>Award winning blue-flag beach with great facilities and paddle board rental. 15-20 minutes walk from the house (up hill on the way back).  The beach is sand/shingle and can shelve steeply at times.</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
 
 					</div>
 				</div>
+				
 
 				<!-- ROW -->
 				<div class="row guide-row green-background">
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
-						<h1>Torcross</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>6 miles</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<h1>Strete Gate</h1>
+						<a class="direction-link" href="https://goo.gl/maps/KCo4arz3f7jas1H77" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>3.7 miles</h2>
+						</a>
+						<p>North end of Slapton Sands, a pebble beach which stretches for almost two miles from Strete Gate to the village of Torcross.  Wild bird reserve and freshwater lake behind the beaches.  10 minutes in the car or just over an hours walk (steep in places).</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
-						<img src="src/images/guide/torcross_thumbnail.jpg" class="guide-img">
+						<img src="src/images/guide/beaches/strete_gate_thumbnail.jpg" class="guide-img">
 					</div>
 				</div>
 
-				<!-- ROW -->
+
 				<div class="row reverse guide-row">
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
-						<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-img">
+						<img src="src/images/guide/beaches/torcross_thumbnail.jpg" class="guide-img">
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Torcross</h1>
+						<a class="direction-link" href="https://goo.gl/maps/kwHcGGr8HMGUfKJz5" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>5.8 miles</h2>
+						</a>
+						<p>South end of Slapton Sands, a pebble beach which stretches for almost two miles from Strete Gate to the village of Torcross.  Wild bird reserve and freshwater lake behind the beaches.  15 minutes in the car.</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
+
+					</div>
+				</div>
+				
+
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
+						<h1>Gara Rock</h1>
+						<a class="direction-link" href="https://goo.gl/maps/WH7X8JchkjRquRHR7" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>13.7 miles</h2>
+						</a>
+						<p>Sand beach surrounded by cliffs. Car park next to the Gara Rock Hotel and restaurant. Fairly steep 10 minute walk down to the beach.  </p>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<img src="src/images/guide/beaches/gara_rock_thumbnail.jpg" class="guide-img">
+					</div>
+				</div>
+
+
+				<div class="row reverse guide-row">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/beaches/east_portlemouth_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>East Portlemouth</h1>
+						<a class="direction-link" href="https://goo.gl/maps/DWxrSLxNnv9zQWVr8" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>14.3 miles</h2>
+						</a>
+						<p>East Portlemouth and Mill Bay are on the opposite side of the estuary to Salcombe.  They are both beautiful sandy beaches with amazing views over to Salcombe.  At low tide you can walk from one to the other, and the beaches can also be reached from Salcombe via a small passenger ferry.  Park in the village at East Portlemouth and walk down the fisherman's steps.  </p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
+
+					</div>
+				</div>
+				
+
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
 						<h1>Mill Bay</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>14.6 miles</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<a class="direction-link" href="https://goo.gl/maps/T8dJGmM3kdgEgU2k6" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>15.5 miles</h2>
+						</a>
+						<p>East Portlemouth and Mill Bay are on the opposite side of the estuary to Salcombe.  They are both beautiful sandy beaches with amazing views over to Salcombe.  At low tide you can walk from one to the other, and the beaches can also be reached from Salcombe via a small passenger ferry.  There's a NT car park at Mill Bay, but we recommend you go early to get a space.</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities no"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<img src="src/images/guide/beaches/mill_bay_thumbnail.jpg" class="guide-img">
+					</div>
+				</div>
+
+
+				<div class="row reverse guide-row">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/beaches/soar_mill_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Soar Mill Cove</h1>
+						<a class="direction-link" href="https://goo.gl/maps/DzpktLZB2Q9iWgnPA" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>16.9 miles</h2>
+						</a>
+						<p>Unspoilt beautiful cove best seen at low tide. Parking at the Soar Mill Hotel and walk down to the beach (about 20 mins).</p>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
 
 					</div>
 				</div>
+				
 
 				<!-- ROW -->
 				<div class="row guide-row green-background">
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
-						<h1>South Milton</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>15.6 miles</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<h1>Thurlestone</h1>
+						<a class="direction-link" href="https://goo.gl/maps/KjejypbC7iW9y4eo8" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>19.1 miles</h2>
+						</a>
+						<p>Thurlstone and South Milton are next to each other on the coast path, and you can easily walk from one to the other.</p>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
-						<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-img">
+						<img src="src/images/guide/beaches/thurlestone_thumbnail.jpg" class="guide-img">
 					</div>
 				</div>
 
-				<!-- ROW -->
+
 				<div class="row reverse guide-row">
-					<div class="col-12 col-md-6 guide-box guide-img-container r-align my-auto">
-						<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-img">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/beaches/south_milton_thumbnail.jpg" class="guide-img">
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>South Milton Sands</h1>
+						<a class="direction-link" href="https://goo.gl/maps/wC2YDzDbC359y4wm7" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>19.5 miles</h2>
+						</a>
+						<p>Thurlstone and South Milton are next to each other on the coast path, and you can easily walk from one to the other.  South Milton is good for rock pooling at low tide and great for sun sets. </p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
+
+					</div>
+				</div>
+				
+
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
 						<h1>Hope Cove</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>18.8 miles</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<a class="direction-link" href="https://goo.gl/maps/yXiRbfJQjZu2D6qV9" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>21 miles</h2>
+						</a>
+						<p>Two beaches at either side of this charming seaside village.</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<img src="src/images/guide/beaches/hope_cove_thumbnail.jpg" class="guide-img">
+					</div>
+				</div>
+
+
+				<div class="row reverse guide-row">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/beaches/bigbury_thumbnail.jpg" class="guide-img">
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Bigbury on Sea</h1>
+						<a class="direction-link" href="https://goo.gl/maps/gUgJCSM3tQFLwWjq8" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>22.5 miles</h2>
+						</a>
+						<p>Striking huge beach at low tide, walk over to Burgh Island with its famous Art Deco hotel.  A sea tractor operates when the tide is in.  </p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
 
 					</div>
 				</div>
+				
 
 				<!-- ROW -->
 				<div class="row guide-row green-background">
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
-						<h1>Salcombe</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>17.1 miles</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>
+						<h1>North Sands</h1>
+						<a class="direction-link" href="https://goo.gl/maps/RV4Fuw8XBYFwNeFr9" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>22.8 miles</h2>
+						</a>
+						<p>Large gently shelving sandy beaches, ideal for young children.  The beach virtually disappears at high tide. There's a car park at North Sands or free parking on the zig.zag road down to North Sands.</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
-						<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-img">
+						<img src="src/images/guide/beaches/north_sands_thumbnail.jpg" class="guide-img">
 					</div>
 				</div>
 
-				<!-- ROW -->
+
+
 				<div class="row reverse guide-row">
-					<div class="col-12 col-md-6 guide-box guide-img-container r-align my-auto">
-						<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-img">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<img src="src/images/guide/beaches/south_sands_thumbnail.jpg" class="guide-img">
 					</div>
 
 					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
-						<h1>Bigbury</h1>
-						<h2><i class="fa-solid fa-location-dot"></i>20.7 miles</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+						<h1>South Sands</h1>
+						<a class="direction-link" href="https://goo.gl/maps/hwmAdVjMi9nRxUiv7" target="_blank">
+							<h2><i class="fa-solid fa-location-dot"></i>23.1 miles</h2>
+						</a>
+						<p>Large gently shelving sandy beaches, ideal for young children.  The beach virtually disappears at high tide.</p>
+						<i class="fa-solid fa-mug-saucer beach-facilities yes"></i>
+						<i class="fa-solid fa-square-parking beach-facilities yes"></i>
+						<i class="fa-solid fa-restroom beach-facilities yes"></i>
 
 					</div>
 				</div>
+				
+
+
+
+
+
+
+
+
 
 
 
@@ -219,7 +352,7 @@
 
 	 		<div class="guide-cards-container content-section" id='walks'>
 
-		 		<div class="guide-header" id='walks-header'>
+		 		<div class="guide-header" id='walks'>
 		 			Walks
 		 		</div>
 
@@ -239,7 +372,7 @@
 
 		 	<div class="guide-cards-container content-section" id='places-to-eat'>
 
-		 		<div class="guide-header" id='places-to-eat-header'>
+		 		<div class="guide-header" id='places-to-eat'>
 		 			Places to Eat
 		 		</div>
 				<div class="row equal justify-content-center">
@@ -249,7 +382,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/green_dragon_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -257,9 +390,9 @@
 										<h3>Village Pub</h3>
 										<h2><i class="fa-solid fa-location-dot"></i>Stoke Fleming | 0.3 miles</h2>
 										
-										<a class="guide-card-icon" href="https://thegreendragon-pub.business.site/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/greendragon2018"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1467217-d2031343-Reviews-The_Green_Dragon-Stoke_Fleming_Dartmouth_Devon_England.html">
+										<a class="guide-card-icon" href="https://thegreendragon-pub.business.site/"><i class="fa-solid fa-laptop" target="_blank"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/greendragon2018" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1467217-d2031343-Reviews-The_Green_Dragon-Stoke_Fleming_Dartmouth_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -274,7 +407,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/radius7_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -282,9 +415,9 @@
 										<h3>Bistro</h3>
 										<h2><i class="fa-solid fa-location-dot"></i>Stoke Fleming | 0.4 miles</h2>
 										
-										<a class="guide-card-icon" href="https://radius7.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/radius7food"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1467217-d7384349-Reviews-Radius_7-Stoke_Fleming_Dartmouth_Devon_England.html">
+										<a class="guide-card-icon" href="https://radius7.co.uk/" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/radius7food" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1467217-d7384349-Reviews-Radius_7-Stoke_Fleming_Dartmouth_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -307,9 +440,9 @@
 										<h3>Garden Restaurant</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Stoke Fleming | 0.4 miles</h2>
 										
-										<a class="guide-card-icon" href="http://www.stokelodge.co.uk/rf.cfm"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/stokelodgehotel"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Hotel_Review-g186253-d577464-Reviews-Stoke_Lodge_Hotel-Dartmouth_Devon_England.html">
+										<a class="guide-card-icon" href="http://www.stokelodge.co.uk/rf.cfm" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/stokelodgehotel" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Hotel_Review-g186253-d577464-Reviews-Stoke_Lodge_Hotel-Dartmouth_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -324,7 +457,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/bushells_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -332,9 +465,9 @@
 										<h3>Riverside Restaurant</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.7 miles </h2>
 										
-										<a class="guide-card-icon" href="https://bushellsdartmouth.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/bushellsriverside"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d7282773-Reviews-Bushell_s_Riverside-Dartmouth_Devon_England.html">
+										<a class="guide-card-icon" href="https://bushellsdartmouth.co.uk/" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/bushellsriverside" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d7282773-Reviews-Bushell_s_Riverside-Dartmouth_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -349,7 +482,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/torcross_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/rockfish_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -357,9 +490,9 @@
 										<h3>Seafood Restaurant</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.7 miles</h2>
 										
-										<a class="guide-card-icon" href="https://therockfish.co.uk/pages/dartmouth-seafood-restaurant"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/RockFishDartmouth"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d1867932-Reviews-Rockfish_Dartmouth-Dartmouth_Devon_England.html">
+										<a class="guide-card-icon" href="https://therockfish.co.uk/pages/dartmouth-seafood-restaurant" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/RockFishDartmouth" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d1867932-Reviews-Rockfish_Dartmouth-Dartmouth_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -374,7 +507,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/rockfish_takeaway_2_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -382,34 +515,9 @@
 										<h3>Fish & Chips</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.8 miles</h2>
 										
-										<a class="guide-card-icon" href="https://therockfish.co.uk/pages/dartmouth-seafood-takeaway"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/RockFishDartmouth"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d4106633-Reviews-Rockfish_Takeaway-Dartmouth_Devon_England.html">
-											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
-										</a>
-									</div>
-								</td>
-								
-							</table>
-						</div>
-					</div>
-
-					<!-- CARD -->
-					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
-						<div class="guide-card-contents green-background">
-							<table>
-								<td>
-									<img src="src/images/guide/salcombe_thumbnail.jpg" class="guide-card-img my-auto">
-								</td>
-								<td>
-									<div class="guide-card-info my-auto">
-										<h1>Spice Merchant</h1>
-										<h3>Indian Cuisine</h3> 
-										<h2><i class="fa-solid fa-location-dot"></i>Dartmouth | 3.8 miles</h2>
-										
-										<a class="guide-card-icon" href="https://www.spicemerchantdartmouth.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/spicemerchantdartmouth"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d23515942-Reviews-Spice_Merchant-Dartmouth_Devon_England.html">
+										<a class="guide-card-icon" href="https://therockfish.co.uk/pages/dartmouth-seafood-takeaway" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/RockFishDartmouth" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g186253-d4106633-Reviews-Rockfish_Takeaway-Dartmouth_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -432,9 +540,9 @@
 										<h3>Country Pub</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Halwell | 8.1 miles </h2>
 										
-										<a class="guide-card-icon" href="http://www.theoldinnhalwell.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/theoldinnhalwell"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g2273452-d3215689-Reviews-The_Old_Inn_Restaurant_Bar-Halwell_Devon_England.html">
+										<a class="guide-card-icon" href="http://www.theoldinnhalwell.co.uk/" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/theoldinnhalwell" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g2273452-d3215689-Reviews-The_Old_Inn_Restaurant_Bar-Halwell_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -457,9 +565,9 @@
 										<h3>Beach Restaurant & Cafe</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Beesands | 9.1 miles</h2>
 										
-										<a class="guide-card-icon" href="https://www.britanniaatthebeach.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/britanniabeesands"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1929953-d2081278-Reviews-Britannia_The_Beach-Beesands_Devon_England.html">
+										<a class="guide-card-icon" href="https://www.britanniaatthebeach.co.uk/" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/britanniabeesands" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g1929953-d2081278-Reviews-Britannia_The_Beach-Beesands_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -474,7 +582,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/hope_cove_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/the_old_bakery_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -482,9 +590,9 @@
 										<h3>Mediterranean & Persian Cuisine</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Kingsbridge | 10.2 miles</h2>
 										
-										<a class="guide-card-icon" href="https://www.theoldbakeryrestaurant.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/theoldbakerykingsbridgedevon"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g551682-d1532883-Reviews-The_Old_Bakery_Restaurant-Kingsbridge_Devon_England.html">
+										<a class="guide-card-icon" href="https://www.theoldbakeryrestaurant.co.uk/" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/theoldbakerykingsbridgedevon"><i class="fa-brands fa-facebook-square" target="_blank"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g551682-d1532883-Reviews-The_Old_Bakery_Restaurant-Kingsbridge_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -499,32 +607,7 @@
 						<div class="guide-card-contents green-background">
 							<table>
 								<td>
-									<img src="src/images/guide/mill_bay_thumbnail.jpg" class="guide-card-img my-auto">
-								</td>
-								<td>
-									<div class="guide-card-info my-auto">
-										<h1>Maha-Bharat</h1>
-										<h3>Bengali & Indian Cuisine</h3> 
-										<h2><i class="fa-solid fa-location-dot"></i>Kingsbridge | 10.3 miles</h2>
-										
-										<a class="guide-card-icon" href="https://www.mahabharatonline.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/Mahabharat93"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g551682-d4040698-Reviews-Maha_Bharat_Indian_Restaurant-Kingsbridge_Devon_England.html">
-											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
-										</a>
-									</div>
-								</td>
-								
-							</table>
-						</div>
-					</div>
-
-					<!-- CARD -->
-					<div class="guide-card col-12 col-sm-12 col-md-10 col-lg-6 col-xl-5 padding-0">
-						<div class="guide-card-contents green-background">
-							<table>
-								<td>
-									<img src="src/images/guide/blackpool_sands_thumbnail.jpg" class="guide-card-img my-auto">
+									<img src="src/images/guide/cott_inn_thumbnail.jpg" class="guide-card-img my-auto">
 								</td>
 								<td>
 									<div class="guide-card-info my-auto">
@@ -532,9 +615,9 @@
 										<h3>Gastropub</h3> 
 										<h2><i class="fa-solid fa-location-dot"></i>Dartington | 12.7 miles</h2>
 										
-										<a class="guide-card-icon" href="https://cottinn.co.uk/"><i class="fa-solid fa-laptop"></i></a>
-										<a class="guide-card-icon" href="https://www.facebook.com/thecottinn"><i class="fa-brands fa-facebook-square"></i></a>
-										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g735763-d1884983-Reviews-The_Cott_Inn_Restaurant-Dartington_Totnes_Devon_England.html">
+										<a class="guide-card-icon" href="https://cottinn.co.uk/" target="_blank"><i class="fa-solid fa-laptop"></i></a>
+										<a class="guide-card-icon" href="https://www.facebook.com/thecottinn" target="_blank"><i class="fa-brands fa-facebook-square"></i></a>
+										<a class="guide-card-icon" href="https://www.tripadvisor.co.uk/Restaurant_Review-g735763-d1884983-Reviews-The_Cott_Inn_Restaurant-Dartington_Totnes_Devon_England.html" target="_blank">
 											<img class="ta-icon" src="src/icons/icon_trip_advisor.svg" onmouseover="this.src='src/icons/icon_trip_advisor_hover.svg'" onmouseout="this.src='src/icons/icon_trip_advisor.svg'" alt="Trip Advisor">
 										</a>
 									</div>
@@ -550,12 +633,73 @@
 
 			<div class="guide-cards-container content-section" id='gardens'>
 
-		 		<div class="guide-header" id='gardens-header'>
+
+				<div class="guide-container content-section" id='gardens'>
+				
+				
+		 		<div class="guide-header" id='gardens'>
 		 			National Trust / Gardens
 		 		</div>
+					
+				<!-- ROW -->
+				<div class="row reverse guide-row no-padding-top">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<div class="guide-img-container">
+							<img src="src/images/guide/national_trust/Coleton_Fishacre_-_panoramio_(3).jpeg" class="guide-img">
+							<div class="guide-img-caption">
+								<a href="https://commons.wikimedia.org/wiki/File:Coleton_Fishacre_-_panoramio_(3).jpg">PJMarriott</a>, <a href="https://creativecommons.org/licenses/by/3.0">CC BY 3.0</a>, via Wikimedia Commons
+							</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Coleton Fishacre</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>Kingswear</h2>
+						<p>Beautiful National Trust House and Gardens with access to the coast path.   Take either the upper or lower vehicle ferry over the Dart river and follow the signs. </p>
+
+					</div>
+				</div>
+				
+
+				<!-- ROW -->
+				<div class="row guide-row green-background">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container r-align my-auto">
+						<h1>Greenway</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>Kingswear</h2>
+						<p>The former holiday home of Agatha Christie and her family with amazing views over the Dart River.  Parking is very limited and requires booking in advance.  Passenger ferrys run regularly from Dartmouth - information can be found on the quayside.  It is also possible to walk from Kingswear to Greenway,  the views are fabulous but this is quite a strenuous walk,  you can return via the Greenway/Dartmouth passenger ferry.</p>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container l-align my-auto">
+						<div class="guide-img-container">
+							<img src="src/images/guide/national_trust/Greenway_House_from_the_woods_(3).jpeg" class="guide-img">
+							<div class="guide-img-caption">
+								<a href="https://commons.wikimedia.org/wiki/File:Greenway_House_from_the_woods_(3).JPG">Harry Mitchell</a>, <a href="https://creativecommons.org/licenses/by/4.0">CC BY 4.0</a>, via Wikimedia Commons
+							</div>
+						</div>
+					</div>
+				</div>
 
 
-		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
+				<div class="row reverse guide-row">
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-img-container r-align my-auto">
+						<div class="guide-img-container">
+							<img src="src/images/guide/national_trust/Overbecks_National_Trust,_Salcombe-11689919664.jpeg" class="guide-img">
+							<div class="guide-img-caption"><a href="https://commons.wikimedia.org/wiki/File:Overbecks_National_Trust,_Salcombe-11689919664.jpg">Chris Sampson</a>, <a href="https://creativecommons.org/licenses/by/2.0">CC BY 2.0</a>, via Wikimedia Commons</div>
+						</div>
+					</div>
+
+					<div class="col-12 col-sm-12 col-md-6 guide-box guide-info-container l-align my-auto">
+						<h1>Overbecks Garden</h1>
+						<h2><i class="fa-solid fa-location-dot"></i>Salcombe</h2>
+						<p>Tropical gardens tucked away on the cliffs above Salcombe with fantastic views.  Drive to Salcombe and head towards South Sands.  </p>
+
+					</div>
+				</div>
+
+
+		 		
+
+				
 
 
 		 	</div>
@@ -566,22 +710,134 @@
 
 			<div class="guide-cards-container content-section" id='activities-with-kids'>
 
-		 		<div class="guide-header" id='activities-with-kids-header'>
+		 		<div class="guide-header" id='activities-with-kids'>
 		 			Activities with Kids
 		 		</div>
 
+		 		<div class="row equal justify-content-center">
 
-		 		Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>Rainy Day <br>
 
 
-		 	</div>
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background woodlands">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Woodlands</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background hippo">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Paignton Zoo</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents zoo photo">
+
+			 			</div>
+			 		</div> 
+
+
+
+
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background sheep">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Penny well Farm</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background crab">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Crabbing</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background sandcastle">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Sand Castles</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background paddleboard">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Stand Up Paddleboard</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background bodyboard">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Bodyboard</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents bodyboard photo">
+
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background golf">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Golf</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p><br>
+			 			</div>
+			 		</div> 
+
+			 	</div>
+			 </div>
+
+
+
+
+
+
+
+
+
 
 
 		 	<!--------------------------------------------- SHOPPING --------------------------------------------->
 
 			<div class="guide-cards-container content-section" id='shopping'>
 
-		 		<div class="guide-header" id='shopping-header'>
+		 		<div class="guide-header" id='shopping'>
 		 			Local Shopping
 		 		</div>
 
@@ -595,28 +851,131 @@
 
 		 	<!--------------------------------------------- RAINY DAY ACTIVITIES --------------------------------------------->
 
+		 	<div class="guide-cards-container content-section" id='rainy-day'>
 
-			<div class="guide-cards-container content-section" id='rainy-day'>
-
-		 		<div class="guide-header" id='rainy-day-header'>
+		 		<div class="guide-header" id='rainy-day'>
 		 			Rainy Day Activities
 		 		</div>
 
-		 		<i class="fa-solid fa-film"></i>
-		 		Cinema, Plymouth, Paignton, 
+		 		<div class="row equal justify-content-center">
 
 
-		 		<i class="fa-solid fa-fish-fins"></i>
-		 		Sealife Centre Plymouth
 
-		 		<i class="fa-solid fa-golf-ball-tee"></i>
-		 		Indoor Adventure Golf Plymouth
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background cinema">
 
-		 		<i class="fa-solid fa-seedling"></i>
-		 		Endsleigh Garden Centre
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Cinema</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Plymouth, Paignton.</p><br>
+			 			</div>
+			 		</div> 
 
 
-Kingsbridge
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background bowling">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Bowling</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Plymouth, Paignton.</p><br>
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background art">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Pottery Painting</p>
+			 				</div>
+			 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background golf">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Mini Golf</p>
+			 				</div>
+			 				<p>Indoor Adventure Golf Plymouth. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background plant">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Garden Centre</p>
+			 				</div>
+			 				<p>Endsleigh Garden Centre. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents garden photo">
+
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background fish">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Sealife Centre</p>
+			 				</div>
+			 				<p>Endsleigh Garden Centre. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background house">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Model Village</p>
+			 				</div>
+			 				<p>Endsleigh Garden Centre. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background cavern">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">Kents Cavern</p>
+			 				</div>
+			 				<p>Endsleigh Garden Centre. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+			 		<div class="activity-content col-6 col-sm-6 col-md-6 col-lg-4 col-xl-3 padding-0">
+			 			<div class="guide-card-contents green-background shopping">
+
+			 				<div class="container activity-card">
+			 					<p class="arrow_box">The Willows</p>
+			 				</div>
+			 				<p>Endsleigh Garden Centre. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. China Blue.</p><br>
+			 			</div>
+			 		</div> 
+
+
+
+
+
+
+
+			 	</div>
+
+
+
+
+
 
 
 
@@ -664,6 +1023,9 @@ $(document).ready(function(){
 
 	function mostVisibleInViewport (top, bottom, offsetTop, offsetHeight) {
 		if (top >= 0 && bottom <= offsetHeight) {
+			return true
+		}
+		else if (bottom == offsetHeight) {
 			return true
 		}
 		else if (top <=0 && bottom >= offsetHeight) {
